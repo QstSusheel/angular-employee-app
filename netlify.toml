@@ -1,0 +1,6 @@
+[build]
+command = "ng build"
+publish = "dist/HR-Management/browser"
+
+[build.environment]
+NETLIFY_USE_SSR = "false"
