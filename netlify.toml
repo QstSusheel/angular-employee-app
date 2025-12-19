@@ -1,6 +1,6 @@
 [build]
   command = "npm run build"
-  publish = "dist/HR-Management/browser"
+  publish = "dist/HR-Management"
 
 [build.environment]
   NETLIFY_USE_SSR = "false"
