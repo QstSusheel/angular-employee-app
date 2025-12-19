@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:HR-Management": "node dist/HR-Management/server/server.mjs"
@@ -40,10 +40,11 @@
     "ngx-toastr": "^19.1.0",
     "rxjs": "~7.8.0",
     "sweetalert2": "^11.26.10",
-    "tslib": "^2.3.0"
+    "tslib": "^2.3.0",
+    "zone.js": "^0.16.0"
   },
   "devDependencies": {
-    "@angular/build": "^21.0.1",
+    "@angular-devkit/build-angular": "^21.0.1",
     "@angular/cli": "^21.0.1",
     "@angular/compiler-cli": "^21.0.0",
     "@types/express": "^5.0.1",
