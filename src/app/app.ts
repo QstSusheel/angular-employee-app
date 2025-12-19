@@ -56,7 +56,6 @@ export class App {
       case DBOperation.create:
         delete formValue.id;
         this._empService.addEmployee(formValue).subscribe(res => {
-          debugger;
             this._toast.success("Employee Added Successfully!");
             this.allEmployees();
             this.onReset();
